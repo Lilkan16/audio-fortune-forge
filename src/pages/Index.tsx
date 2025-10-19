@@ -116,13 +116,13 @@ const Index = () => {
           <Badge className="mb-6 bg-accent/20 text-accent border-accent/50 text-sm py-2 px-4">
             💎 OFERTA EXCLUSIVA
           </Badge>
-          <h1 className="text-5xl md:text-7xl font-montserrat font-bold mb-6 bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-jakarta font-bold mb-6 bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text text-transparent leading-tight">
             A Chave Para o Seu Próximo Nível Está Aqui
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-foreground/90 max-w-4xl mx-auto font-inter">
+          <p className="text-xl md:text-2xl mb-4 text-foreground/90 max-w-4xl mx-auto font-jakarta">
             Desbloqueie o Sucesso Financeiro e Mental com 200 Áudios que Mudaram a Vida de Milhares de Pessoas.
           </p>
-          <p className="text-lg md:text-xl mb-12 text-muted-foreground max-w-3xl mx-auto font-inter">
+          <p className="text-lg md:text-xl mb-12 text-muted-foreground max-w-3xl mx-auto font-jakarta">
             Acesse agora os maiores Best-Sellers de Desenvolvimento Pessoal e Finanças em versão áudio — para ouvir onde quiser, quando quiser.
             Transforme sua mentalidade, conquiste liberdade financeira e viva seu potencial máximo.
           </p>
@@ -135,7 +135,7 @@ const Index = () => {
       {/* Benefits Section */}
       <section className="py-24 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-6 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-6 text-accent">
             🔓 O que 200 Áudios Best-Sellers Vão Fazer por Você
           </h2>
           <div className="max-w-4xl mx-auto space-y-6 mt-12">
@@ -146,7 +146,7 @@ const Index = () => {
               >
                 <div className="flex items-start gap-4">
                   <span className="text-4xl">{benefit.icon}</span>
-                  <p className="text-lg text-foreground/90 font-inter leading-relaxed">
+                  <p className="text-lg text-foreground/90 font-jakarta leading-relaxed">
                     {benefit.text}
                   </p>
                 </div>
@@ -164,7 +164,7 @@ const Index = () => {
       {/* Books Showcase */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-16 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-16 text-accent">
             📚 Os Clássicos Que Você Vai Ouvir
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
@@ -184,7 +184,7 @@ const Index = () => {
                   <h3 className="text-xl font-poppins font-semibold mb-3 text-accent">
                     {book.title}
                   </h3>
-                  <p className="text-muted-foreground font-inter">
+                  <p className="text-muted-foreground font-jakarta">
                     {book.description}
                   </p>
                 </div>
@@ -197,10 +197,10 @@ const Index = () => {
       {/* Testimonials */}
       <section className="py-24 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-6 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-6 text-accent">
             ⭐ O Que Nossos Ouvintes Estão Falando
           </h2>
-          <p className="text-center text-xl text-muted-foreground mb-12 max-w-3xl mx-auto font-inter">
+          <p className="text-center text-xl text-muted-foreground mb-12 max-w-3xl mx-auto font-jakarta">
             Milhares de pessoas já transformaram sua forma de pensar, agir e investir.
             Veja o que alguns estão dizendo após ouvir nossos áudios:
           </p>
@@ -215,7 +215,7 @@ const Index = () => {
                     <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                   ))}
                 </div>
-                <p className="text-foreground/90 font-inter italic leading-relaxed">
+                <p className="text-foreground/90 font-jakarta italic leading-relaxed">
                   "{testimonial}"
                 </p>
               </Card>
@@ -227,10 +227,10 @@ const Index = () => {
       {/* Why Different */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-6 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-6 text-accent">
             🚀 O Pack Que Acelera Sua Evolução Pessoal e Financeira
           </h2>
-          <p className="text-center text-xl text-muted-foreground mb-16 max-w-3xl mx-auto font-inter">
+          <p className="text-center text-xl text-muted-foreground mb-16 max-w-3xl mx-auto font-jakarta">
             Você não precisa gastar anos lendo livros — ou centenas de reais em cursos.
             Aqui você tem os 200 maiores ensinamentos de todos os tempos, prontos para ouvir e aplicar.
           </p>
@@ -246,7 +246,7 @@ const Index = () => {
                   <h3 className="text-2xl font-poppins font-semibold mb-3 text-accent">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground font-inter text-lg">
+                  <p className="text-muted-foreground font-jakarta text-lg">
                     {feature.description}
                   </p>
                 </Card>
@@ -264,30 +264,30 @@ const Index = () => {
       {/* Price Comparison */}
       <section className="py-24 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-6 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-6 text-accent">
             💸 O Valor de um Livro… O Conhecimento de 200.
           </h2>
           <Card className="max-w-3xl mx-auto bg-card border-accent/30 p-12 mt-12">
             <div className="space-y-6 mb-12">
-              <div className="flex justify-between items-center text-lg font-inter">
+              <div className="flex justify-between items-center text-lg font-jakarta">
                 <span className="text-muted-foreground">Livros físicos:</span>
                 <span className="text-foreground line-through">R$67 a R$150 cada</span>
               </div>
-              <div className="flex justify-between items-center text-lg font-inter">
+              <div className="flex justify-between items-center text-lg font-jakarta">
                 <span className="text-muted-foreground">Audiobooks avulsos:</span>
                 <span className="text-foreground line-through">R$49,90 cada</span>
               </div>
               <div className="border-t border-accent/30 pt-6">
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-poppins font-semibold text-accent">👉 Seu Acesso Hoje:</span>
-                  <span className="text-5xl font-montserrat font-bold text-success animate-glow-pulse">
+                  <span className="text-2xl font-jakarta font-semibold text-accent">👉 Seu Acesso Hoje:</span>
+                  <span className="text-5xl font-jakarta font-bold text-success animate-glow-pulse">
                     R$19,90
                   </span>
                 </div>
-                <p className="text-center text-muted-foreground mt-4 font-inter">único pagamento</p>
+                <p className="text-center text-muted-foreground mt-4 font-jakarta">único pagamento</p>
               </div>
             </div>
-            <p className="text-center text-lg text-foreground/90 font-inter leading-relaxed">
+            <p className="text-center text-lg text-foreground/90 font-jakarta leading-relaxed">
               Invista menos do que um café por dia e leve um acervo completo de conhecimento que vai durar para sempre.
             </p>
           </Card>
@@ -300,17 +300,17 @@ const Index = () => {
           <Badge className="mx-auto block w-fit mb-8 bg-destructive text-destructive-foreground text-lg py-3 px-6 animate-glow-pulse">
             🚨 OFERTA LIMITADA — SÓ HOJE
           </Badge>
-          <h2 className="text-4xl md:text-6xl font-montserrat font-bold text-center mb-8 text-accent">
+          <h2 className="text-4xl md:text-6xl font-jakarta font-bold text-center mb-8 text-accent">
             200 Áudios Best-Sellers + Bônus Exclusivos
           </h2>
           <div className="text-center mb-12">
-            <p className="text-3xl text-muted-foreground mb-4 font-inter">
+            <p className="text-3xl text-muted-foreground mb-4 font-jakarta">
               <span className="line-through">De R$149,00</span>
             </p>
-            <p className="text-6xl md:text-7xl font-montserrat font-bold text-success mb-6">
+            <p className="text-6xl md:text-7xl font-jakarta font-bold text-success mb-6">
               R$19,90
             </p>
-            <p className="text-xl text-foreground/80 font-inter">
+            <p className="text-xl text-foreground/80 font-jakarta">
               (Acesso vitalício + Garantia de 7 dias)
             </p>
           </div>
@@ -327,10 +327,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Shield className="w-24 h-24 mx-auto mb-8 text-accent" />
-            <h2 className="text-4xl md:text-5xl font-montserrat font-bold mb-6 text-accent">
+            <h2 className="text-4xl md:text-5xl font-jakarta font-bold mb-6 text-accent">
               ✅ Garantia Incondicional de 7 Dias
             </h2>
-            <p className="text-xl text-foreground/90 leading-relaxed font-inter">
+            <p className="text-xl text-foreground/90 leading-relaxed font-jakarta">
               Ouça sem riscos. Se você não sentir que sua mentalidade evoluiu, devolvemos seu dinheiro — sem perguntas.
               Seu sucesso é nossa prioridade.
             </p>
@@ -341,16 +341,16 @@ const Index = () => {
       {/* FAQ */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-center mb-16 text-accent">
+          <h2 className="text-4xl md:text-5xl font-jakarta font-bold text-center mb-16 text-accent">
             ❓ Dúvidas Frequentes
           </h2>
           <Accordion type="single" collapsible className="max-w-3xl mx-auto">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-border">
-                <AccordionTrigger className="text-left text-xl font-poppins hover:text-accent">
+                <AccordionTrigger className="text-left text-xl font-jakarta hover:text-accent">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-muted-foreground font-inter">
+                <AccordionContent className="text-lg text-muted-foreground font-jakarta">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -362,10 +362,10 @@ const Index = () => {
       {/* Final CTA */}
       <section className="py-32 bg-gradient-to-t from-background via-secondary/30 to-background">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-6xl font-montserrat font-bold mb-8 bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text text-transparent leading-tight">
+          <h2 className="text-4xl md:text-6xl font-jakarta font-bold mb-8 bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text text-transparent leading-tight">
             💬 O Sucesso Está a Um Clique de Distância.
           </h2>
-          <p className="text-2xl md:text-3xl text-foreground/90 mb-16 font-inter max-w-4xl mx-auto leading-relaxed">
+          <p className="text-2xl md:text-3xl text-foreground/90 mb-16 font-jakarta max-w-4xl mx-auto leading-relaxed">
             200 Áudios Que Podem Mudar Seu Destino Começam Aqui.
           </p>
           <CTAButton size="xl">
@@ -377,10 +377,10 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 bg-secondary/50 border-t border-border">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground font-inter">
+          <p className="text-muted-foreground font-jakarta">
             © 2025 | Todos os direitos reservados.
           </p>
-          <p className="text-sm text-muted-foreground/70 mt-2 font-inter">
+          <p className="text-sm text-muted-foreground/70 mt-2 font-jakarta">
             Design em modo escuro premium | Desenvolvido para inspirar e transformar.
           </p>
         </div>

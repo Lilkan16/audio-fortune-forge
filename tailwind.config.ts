@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
+        'jakarta': ['Plus Jakarta Sans', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'inter': ['Inter', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
