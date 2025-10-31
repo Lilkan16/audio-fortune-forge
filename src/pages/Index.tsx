@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle2, Download, Lock, RefreshCw, Shield, Star } from "lucide-react";
 import heroImage from "@/assets/hero-headphones.jpg";
 import bookDoMilAoMilhao from "@/assets/book-do-mil-ao-milhao.png";
-import bookMilagreManha from "@/assets/book-milagre-manha.jpg";
+import bookPaiRicoPaiPobre from "@/assets/book-pai-rico-pai-pobre.png";
 import book7Habitos from "@/assets/book-7-habitos.jpg";
 import bookPensaEnriquece from "@/assets/book-pensa-enriquece.jpg";
 
@@ -40,9 +40,9 @@ const Index = () => {
       description: "INVESTIMENTOS: Explore diversas modalidades de investimentos, da renda fixa à variável, além de insights valiosos sobre empreendedorismo para tomar decisões financeiras mais acertadas."
     },
     {
-      image: bookMilagreManha,
-      title: "O Milagre da Manhã",
-      description: "Desperte seu melhor eu e eleve sua produtividade."
+      image: bookPaiRicoPaiPobre,
+      title: "Pai Rico, Pai Pobre",
+      description: "FINANÇAS: Domine a psicologia do dinheiro e aprenda a gerir suas finanças com inteligência para alcançar a estabilidade e o sucesso financeiro."
     },
     {
       image: book7Habitos,
