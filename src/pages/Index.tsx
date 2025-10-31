@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle2, Download, Lock, RefreshCw, Shield, Star } from "lucide-react";
 import heroImage from "@/assets/hero-headphones.jpg";
-import bookPaiRico from "@/assets/book-pai-rico.jpg";
+import bookPaiRico from "@/assets/book-pai-rico.png";
 import bookMilagreManha from "@/assets/book-milagre-manha.jpg";
 import book7Habitos from "@/assets/book-7-habitos.jpg";
 import bookPensaEnriquece from "@/assets/book-pensa-enriquece.jpg";
